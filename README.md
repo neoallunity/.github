@@ -1,20 +1,26 @@
 # 🧠 neoallunity
 
-Canonical home of the **Integral Philosophy publishing platform** — modular academic
-content processing split across focused modules, now consolidating into the
-[`integral-philosophy`](https://github.com/neoallunity/integral-philosophy) **monorepo**.
+Canonical home of the **Integral Philosophy publishing platform**. The former one-repository-per-module projects
+(`integral-philosophy-core`, `-web`, `-cli`, `-docs`, `-content`, `-config`, `-deploy`, `-tests`)
+are archived read-only; do not open PRs there.
 
-## Modules
+## Canonical map
 
-| Module | Role |
+| Path in [`integral-philosophy`](https://github.com/neoallunity/integral-philosophy) | Role |
 |---|---|
-| [`core`](https://github.com/neoallunity/integral-philosophy-core) | content parsing/conversion engine |
-| [`web`](https://github.com/neoallunity/integral-philosophy-web) | web UI & API |
-| [`cli`](https://github.com/neoallunity/integral-philosophy-cli) | command-line tools |
-| [`docs`](https://github.com/neoallunity/integral-philosophy-docs) | documentation |
-| [`content`](https://github.com/neoallunity/integral-philosophy-content) | sample content & datasets |
-| [`config`](https://github.com/neoallunity/integral-philosophy-config) | configuration rules |
-| [`deploy`](https://github.com/neoallunity/integral-philosophy-deploy) | deployment configs |
-| [`tests`](https://github.com/neoallunity/integral-philosophy-tests) | test suite |
+| `modules/core` | content parsing/conversion engine |
+| `modules/web` | web UI and API |
+| `modules/cli` | command-line tools |
+| `modules/docs` | documentation |
+| `modules/content` | sample content and datasets |
+| `modules/config` | configuration rules |
+| `modules/deploy` | deployment configs |
+| `modules/tests` | test suite |
+
+## Platform
+
+- CMS rebuild of AllUnity.ru: [`allunity-wagtail`](https://github.com/neoallunity/allunity-wagtail)
+- Historical publishing snapshot: [`Magazine`](https://github.com/neoallunity/Magazine)
+- Media mirrors `allunity-{knigi,zhurnaly,diskussii}`: read-only, rights pending
 
 🌐 https://new.allunity.ru · Mirrors: [GitLab](https://gitlab.com/dominicusin)
